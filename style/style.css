@@ -45,3 +45,35 @@
 .hero-item-img{
        margin-top: 50px;
 }
+.hide{
+        display: none;
+}
+@media screen and (max-width:576px) {
+        .heide-phone{
+                display: none;
+        }
+        .hide{
+                display: block;
+        }
+        .hero-container{
+                flex-direction: column-reverse;
+                text-align: center;
+                gap: 30px;
+                
+        }
+        .hero{
+                height: auto;
+        }
+        .hero-item-img{
+                width: 80%;
+        }
+        .hero-title{
+                font-size: 2.5rem;
+        }
+        .hero-description{
+                font-size: 16px;       
+        }
+        .hero-btn{
+                margin-bottom: 60px;
+        }
+}
