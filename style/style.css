@@ -230,6 +230,38 @@
 
                 
 }
+.footer-container{
+        width: 100%;
+        height: 450px;
+        background: rgb(17, 16, 16);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+}
+.footer-title{
+        font-size: 48px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 24px;
+}
+.flower{
+        color: #E55473;
+}
+.footer-desctiption{
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 32px;
+        }
+.copyright{
+                color: rgba(255, 255, 255, 0.4);
+                font-size: 16px;
+                font-weight: 400;
+                        
+}
 @media screen and (max-width:576px) {
         .heide-phone{
                 display: none;
