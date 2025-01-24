@@ -107,6 +107,31 @@
         margin-top: 32px;
         
 }
+.special{
+        display: flex;
+        justify-content: center;
+
+}
+.special-feature{
+        width: 1440px;
+        height: 320px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 8px;
+        background: rgba(39, 39, 39, 0.05);
+        text-align: center;
+        align-items: center;
+        gap: 100px;
+        margin-bottom: 128px;
+}
+.special-title{
+        color: rgba(39, 39, 39, 0.8);
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 24px;
+              
+}
 @media screen and (max-width:576px) {
         .heide-phone{
                 display: none;
@@ -152,4 +177,16 @@
                 width: 350px;
                 height: auto;
         }
+        .special-feature{
+                width: 70vw;
+                flex-wrap: wrap;
+                height: auto;
+                padding: 60px 180px;
+                
+        }
+        .special-title{
+                font: 18px;
+                width: 85vw;
+        }
+        
 }
