@@ -163,6 +163,20 @@
         margin-bottom: 32px;
                 
 }
+.instagram{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 128px;
+}
+.instagram-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 24px;
+}
 @media screen and (max-width:576px) {
         .heide-phone{
                 display: none;
@@ -224,5 +238,8 @@
                 height: auto;
                 gap: 50px;
                 padding: 100px 50px 80px;
+        }
+        .instagram-img{
+                flex-wrap: wrap;
         }
 }
